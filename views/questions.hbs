@@ -1,0 +1,27 @@
+<div>
+  <button type="button" class="btn btn-outline-primary" onClick="window.location='/'">Back</button>
+  <form action="/questions/answers" method="POST">
+    {{#each post}}
+    <div>
+      <h1 id="h{{math @index " +" 1}}">{{math @index "+" 1}}.
+        {{this.question}}</h1>
+      <div class="form-group">
+        <input type="radio" name="{{this.questionNumber}}" id="question{{this.questionNumber}}Yes" value="yes">
+        <label for="{{this.questionNumber}}Yes">yes</label>
+        <input type="radio" name="{{this.questionNumber}}" id="question{{this.questionNumber}}No" value="no">
+        <label for="question{{this.questionNumber}}No">no</label>
+        <p id="{{math @index "+" 1}}{{this}}"></p>
+      </div>
+    </div>
+    <hr />
+    {{/each}}
+    <button type="submit" class="btn btn-outline-primary"
+      onClick="window.location='/questions/answers'">Verzenden</button>
+    <br>
+  </form>
+
+</div>
+
+{{> bootstrap}}
+
+{{> js}}

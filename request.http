@@ -1,0 +1,14 @@
+GET http://localhost:3000/
+
+###
+
+GET http://localhost:3000/questions
+
+###
+
+GET http://localhost:3000/test
+
+###
+
+POST http://localhost:3000/questions/answers
+Content-Type: application/json

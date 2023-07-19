@@ -1,0 +1,18 @@
+<div>
+  <button
+    type="button"
+    class="btn btn-outline-primary"
+    onClick="window.location='/'"
+  >Back</button>
+  <div>
+    {{#each post}}
+    <div class="jumbotron">
+        <h1 class="display-4">{{this.name}}</h1>
+        <hr class="my-4">
+        <p class="lead">In dit veld scoorde je: {{this.score}}</p>
+    </div>
+    {{/each}}
+  </div>
+</div>
+
+{{> bootstrap}}

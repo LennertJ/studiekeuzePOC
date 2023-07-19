@@ -1,0 +1,14 @@
+[
+    {
+        "questionNumber":1,
+        "question":"Is cereal a soup?",
+        "positiveRealation":["Science"],
+        "negativeRelation":["Cooking","Language"]
+    },
+    {
+        "questionNumber":2,
+        "question":"Is Pluto a planet?",
+        "positiveRealation":["Language"],
+        "negativeRelation":["Science"]
+    }
+]

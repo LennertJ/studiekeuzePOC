@@ -1,0 +1,14 @@
+[   
+    {
+        "name":"General Social skills",
+        "cathegories":["Social activity","Cooking"]
+    },
+    {
+        "name":"Economy & Languages",
+        "cathegories":["Economy","Language"]
+    },
+    {
+        "name":"Sience & Maths",
+        "cathegories":["Science","Maths"]
+    }
+]
